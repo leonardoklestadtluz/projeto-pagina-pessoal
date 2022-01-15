@@ -24,17 +24,21 @@ Neste projeto utilizarei as seguintes tecnologias e ferramentas.
 
 ### Tecnologias
 
-- HTML5
-- CSS3
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML "Sobre a linguagem de marcação HTML")
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS "Sobre a linguagem de estilo CSS")
 
 ### Ferramentas
 
-+ Editor de código VSCode
++ Lapiseira
++ Borracha
++ Caderno de desenho
++ [Figma](https://www.figma.com/ "sobre o Figma")
++ Editor de código [VSCode](https://code.visualstudio.com/ "sobre o VSCode")
 + Navegador de internet - Google Chrome, Mozilla Firefox ou Microsoft Edge
 + GitHub - sistema web para compartilhamento de código
 
 
 
-## Como Utilizar
+## Como Acessar ou Utilizar
 
-Para acessa a página *Página Pessoal* bastará acessar o link que disponibilizarei aqui!
+Para acessa a página *Página Pessoal* disponibilizarei assim um link aqui assim que estiver pronto!
