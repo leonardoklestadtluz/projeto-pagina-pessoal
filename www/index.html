@@ -8,114 +8,139 @@
         <!-- Inserção do ícone favicon -->
         <link rel="shortcut icon" href="/assets/icons/favicon.svg" type="image/x-icon">
 
+        <!-- Estilo de fonte dos detalhes da página -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+
+        <!-- Estilo de títulos e subtítulos -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@900&display=swap" rel="stylesheet">
+
+        <!-- Estilo de fonte do conteúdo da página -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Glory:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- Estilos comuns entre as páginas -->
+        <link rel="stylesheet" href="./css/global.css">
+
+        <!-- Estilo da página Carta de Apresentação -->
+        <link rel="stylesheet" href="./css/index.css">
+
         <!-- Título exibido na aba da página no navegador -->
-        <title>LKL - CARTA DE APRESENTAÇÃO</title>
+        <title>LKL - Carta de Apresentação</title>
     </head>
 
     <body>
-        <!-- Cabeçalho da página Carta de Apresentação -->
-        <header class="header-background-image">
-            <a href="./index.html">
-                <img src="./assets/images/imagem-fundo-cabecalho-960x150.png" alt="Imagem de fundo do cabeçalho da página">
-            </a>
+        <!-- Cabeçalho da página Carta de Apresentação -->      
+        <header>
+            <div class="img-top"></div>
+            <div class="filter-image-top"></div>
         </header>
-
+        
         <!-- Conteúdo da página -->
         <div class="container">
-            
+
             <!-- Conteúdo principal -->
-            <main class="main">
-                
+            <main class="main-content">
+
                 <!-- Lado direito da página -->
                 <div class="right-side-page">
 
                     <!-- Sessão de nome da pessoa -->
                     <section class="name">
-                        <h1>Leonardo Klestadt Luz</h1>
-                        <hr id="name-separator">
+                        <h1>Leona<span class="span-name">rdo Kle</span>stadt <br> Luz</h1>
                     </section>
-        
+
+                    <!-- Separador de sessões -->
+                    <hr class="separator">
+                    
                     <!-- Sessão de formas de contato -->
                     <section class="contact">
-                        <h2>Contato</h2>
+                        <h2 class="subtitle-side-right">Contato</h2>
                         <ul>
                             <li>
                                 <a href="https://www.linkedin.com/in/leonardo-klestadt-luz-54036419/" target="_blank" title="LinkedIn - abrirá o perfil de Leonardo K. Luz">
-                                    <img src="./assets/icons/icone-linkedin.svg" alt="Ícone do LinkedIn">
+                                    <img src="./assets/icons/icone-linkedin.svg" alt="Ícone do LinkedIn" class="size-contact-icon">
                                 </a>
                             </li>
-        
+
                             <li>
                                 <a href="https://github.com/leonardoklestadtluz" target="_blank" title="GitHub - abrirá o repositório de Leonardo K. Luz">
-                                    <img src="./assets/icons/icone-github.svg" alt="Ícone do GitHub">
+                                    <img src="./assets/icons/icone-github.svg" alt="Ícone do GitHub" class="size-contact-icon">
                                 </a>
                             </li>
-        
+
                             <li>
                                 <a href="mailto:klestadt@hotmail.com" title="Abrirá seu aplicativo de e-mail para contatar Leonardo K. Luz">
-                                    <img src="./assets/icons/icone-email.svg" alt="Ícone do e-mail">
+                                    <img src="./assets/icons/icone-email.svg" alt="Ícone do e-mail" class="size-contact-icon">
                                 </a>
                             </li>
-        
+
                             <li>
                                 <a href="https://wa.me/5551981713233?text=Olá!%20Você%20irá%20conversar%20com%20Leonardo%20K.%20Luz." target="_blank" title="Abrirá a página do Whatsapp web em seu navegador de internet">
-                                    <img src="./assets/icons/icone-whatsapp.svg" alt="Ícone do Whatsapp">
+                                    <img src="./assets/icons/icone-whatsapp.svg" alt="Ícone do Whatsapp" class="size-contact-icon">
                                 </a>
                             </li>
                         </ul>
-                        <hr class="contact-separator">
                     </section>
-        
+                    
+                    <!-- Separador de sessões -->
+                    <hr class="separator">
+
                     <!-- Sessão de meus dados -->
                     <section class="my-datas">
-                        <h2>Meus dados</h2>
-                        
-                        <ul>
-                            <li><span>Nascimento:</span> 11/11/1984</li>
-                            <li><span>Idade:</span> </li> <!-- calcular a idade automáticamente -->
-                            <li><span>Estado cívil:</span> solteiro</li>
-                            <li><span>Cidade:</span> Gravataí</li>
-                            <li><span>UF:</span> RS</li>
-                            <li><span>CNH:</span> AB</li>
-                            <li><span>Pretensão salarial:</span> a combinar</li>
+                        <h2 class="subtitle-side-right">Meus dados</h2>
+                        <ul class="datas">
+                            <li class="data"><span class="span-data">Nascimento:</span> 11/11/1984</li>
+                            
+
+                            <!-- 
+                                Calcular a idade automáticamente. Função será implementada 
+                                <li class="data"><span class="span-data">Idade:</span> </li>
+                            -->
+                            
+                            <li class="data"><span class="span-data">Estado cívil:</span> solteiro</li>
+                            <li class="data"><span class="span-data">Cidade:</span> Gravataí</li>
+                            <li class="data"><span class="span-data">UF:</span> RS</li>
+                            <li class="data"><span class="span-data">CNH:</span> AB</li>
+                            <li class="data"><span class="span-data">Pretensão salarial:</span> a combinar</li>
                         </ul>
-                        <hr class="my-data-separator">
+
                     </section>
                 </div>
 
                 <!-- Separador vertical -->
                 <hr class="vertical-separator">
 
-                <!-- Lado esquerdo da página -->
+                 <!-- Lado esquerdo da página -->
                 <div class="left-side-page">
-                    
-                    <!-- Sessão do botão -->
-                    <section class="button">
-                        <a href="personal-page.html" class="button-personal-page">Página pessoal aqui !</a>
 
-                        <hr class="button-separator">
+                    <!-- Sessão do botão -->
+                    <section class="button-next-page">
+                        <a href="personal-page.html" class="button-personal-page" title="Quando pressionado, este botão direcionar para a página pessoal de Leonard K. Luz">Página pessoal, aqui !</a>
                     </section>
+
+                    <!-- Separador de sessões -->
+                    <hr class="separator-button">
 
                     <!-- Sessão do texto de apresentação -->
                     <section class="presentation-text">
-                        <p>Prezados.
+                        <p>Prezados.</p>
 
-                            Atualmente resido em Gravataí/ RS, trabalho na Unidasul Dist. Alimentícia LTDA, como Técnico Service Desk desde  02/01/2020 em Esteio/ RS. </p>
+                        <p>Atualmente resido em Gravataí/ RS, trabalho na Unidasul Dist. Alimentícia LTDA, como Técnico Service Desk desde  02/01/2020 em Esteio/ RS. </p>
 
                         <p>Presto suporte remoto corporativo de informática via telefone e sistema de chamados para os colaboradores da matriz e filiais de todo o RS.</p>
 
-                        <p>Estudei na FAQI à noite, até 5º semestre do curso de Análise e Desenvolvimento de Sistemas (Tecnológico), em Gravataí, mas cancelei o curso. A partir de agosto/2018 continuei meus estudos em Análise e Desenvolvimento de Sistemas, mas agora na modalidade EAD na instituição FAEL – Faculdade Educacional da Lapa/ PR onde em julho/2019 concluí o curso de Análise e Desenvolvimento de Sistemas.</p>
+                        <p>Estudei na FAQI à noite, até 5&deg; semestre do curso de Análise e Desenvolvimento de Sistemas (Tecnológico), em Gravataí, mas cancelei o curso. A partir de gosto/2018 continuei meus estudos em Análise e Desenvolvimento de Sistemas, mas agora na modalidade EAD na instituição FAEL – Faculdade Educacional da Lapa/ PR onde em julho/2019 concluí o curso de Análise e Desenvolvimento de Sistemas.</p>
 
                         <p>Estou em busca de uma oportunidade na área de desenvolvimento/ programação. Tenho experiência conhecimento em programação à nível de estudo.</p>
 
                         <p>Meu idioma nativo é português do Brasil e meu nível de inglês é técnico básico (escrita e leitura).
 
                         Agradeço a atenção, obrigado.</p>
-
-                        <span>At.te,
-
-                            Leonardo Klestadt Luz
-                        </span>
                     </section>
                 </div>
             </main>
@@ -123,28 +148,28 @@
 
         <!-- Rodapé da página Carta de Apresentação -->
         <footer class="footer">
-            
-            <div class="social-icons">
-                <ul>
+
+            <!-- Ícones de redes sociais -->
+            <div>
+                <ul class="social-icons">
                     <li><a href="https://www.linkedin.com/in/leonardo-klestadt-luz-54036419/" target="_blank" title="LinkedIn - abrirá o perfil de Leonardo K. Luz">
-                        <img src="./assets/icons/icone-linkedin.svg" alt="Ícone do LinkedIn">
+                        <img src="./assets/icons/icone-linkedin.svg" alt="Ícone do LinkedIn" class="icon-footer size-icon">
                     </a></li>
 
                     <li><a href="https://github.com/leonardoklestadtluz" target="_blank" title="GitHub - abrirá o repositório de Leonardo K. Luz">
-                        <img src="./assets/icons/icone-github.svg" alt="Ícone do GitHub">
+                        <img src="./assets/icons/icone-github.svg" alt="Ícone do GitHub" class="icon-footer size-icon">
                     </a></li>
 
                     <li><a href="mailto:klestadt@hotmail.com" title="Abrirá seu aplicativo de e-mail para contatar Leonardo K. Luz">
-                        <img src="./assets/icons/icone-email.svg" alt="Ícone do e-mail">
+                        <img src="./assets/icons/icone-email.svg" alt="Ícone do e-mail" class="icon-footer size-icon">
                     </a></li>
 
                     <li><a href="tel:+5551981713233" title="Abrirá seu aplicativo de telefone para contatar Leonardo K. Luz">
-                        <img src="./assets/icons/icone-telefone.svg" alt="Ícone do telefone">
+                        <img src="./assets/icons/icone-telefone.svg" alt="Ícone do telefone" class="size-icon">
                     </a></li>
                 </ul>
             </div>
 
-            <div class="right">Leonardo K. Luz | 2022 - Todos os direitos reservados &copy;</div>
+            <div class="right-all">Leonardo K. Luz | 2022 - Todos os direitos reservados</div>
         </footer>
     </body>
-</html>
