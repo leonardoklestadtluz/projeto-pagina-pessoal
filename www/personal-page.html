@@ -8,34 +8,51 @@
         <!-- Inserção do ícone favicon -->
         <link rel="shortcut icon" href="/assets/icons/favicon.svg" type="image/x-icon">
 
+         <!-- Estilo de fonte dos detalhes da página -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+ 
+         <!-- Estilo de títulos e subtítulos -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@900&display=swap" rel="stylesheet">
+ 
+         <!-- Estilo de fonte do conteúdo da página -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Glory:wght@200;400;600;700&display=swap" rel="stylesheet">
+
+        <!-- Estilos comuns entre as páginas -->
+        <link rel="stylesheet" href="./css/global.css">
+
+        <link rel="stylesheet" href="./css/personal-page.css">
+
         <!-- Título exibido na aba da página no navegador -->
-        <title>LKL - PÁGINA PESSOAL</title>
+        <title>LKL - Página Pessoal</title>
     </head>
 
     <body>
-        <!-- Sessão de imagem no topo da página Carta de Apresentação -->
-        <section class="topo-background-image">
-            <a href="./index.html">
-                <img src="./assets/images/imagem-fundo-cabecalho-960x150.png" alt="Imagem de fundo do cabeçalho da página">
-            </a>
-        </section>
-
+        <!-- Cabeçalho da página Carta de Apresentação -->      
+        <header>
+            <div class="img-top"></div>
+            <div class="filter-image-top"></div>
+        </header>
 
         <!-- Menu principal de navegação da página Página Pessoal -->
-        <header class="menu">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Carta de Apresentação</a></li>
-                    <li><a href="#professional-goals">Obj. Profissional</a></li>
-                    <li><a href="#trajectory">Trajetória</a></li>
-                    <li><a href="#formation">Formação</a></li>
-                    <li><a href="#portfolio">Portfólio</a></li>
-                    <li><a href="#experience-period">Experiência e Período</a></li>
+        <header class="header">
+            <nav class="menu">
+                <ul class="items-menu">
+                    <li class="link"><a class="link-menu" href="index.html">Carta de Apresentação</a></li>
+                    <li class="link"><a class="link-menu" href="#professional-goals">Obj. Profissional</a></li>
+                    <li class="link"><a class="link-menu" href="#trajectory">Trajetória</a></li>
+                    <li class="link"><a class="link-menu" href="#formation">Formação</a></li>
+                    <li class="link"><a class="link-menu" href="#portfolio">Portfólio</a></li>
+                    <li class="link"><a class="link-menu" href="#experience-period">Experiência e Período</a></li>
                 </ul>
             </nav>
         </header>
-
-
+        
         <!-- Conteúdo da página -->
         <div class="container">
 
@@ -43,39 +60,95 @@
             <main class="main">
 
                 <!-- Sessão de Objetivos Profissionais -->
-                <section id="professional-goals">
+                <section class="sections" id="professional-goals">
                     <h1 class="title-section">Objetivos Profissionais</h1>
-                    <p>Apesar de ter experiência na área de suporte e atendimento remoto ao cliente, sou graduado em Análise e Desenvolvimento de Sistemas, desejo iniciar minha carreira como desenvolvedor iniciando pelo front-end, passando pelo back-end e se possível chegar a full stack. Para isso estou estudando em plataformas online e tento me manter o mais próximo possível das linhas de código.</p>
-
-                    <hr class="professional-goals-separator">
+                    <p class="text-content">Apesar de ter experiência na área de suporte e atendimento remoto ao cliente, sou graduado em Análise e Desenvolvimento de Sistemas, desejo iniciar minha carreira como desenvolvedor iniciando pelo front-end, passando pelo back-end e se possível chegar a full stack. Para isso estou estudando em plataformas online e tento me manter o mais próximo possível das linhas de código.</p>
                 </section>
+                
+                <!-- Separador de sessão -->
+                <hr class="separator">
 
                 <!-- Sessão Trajetória -->
-                <section id="trajectory">
+                <section class="sections" id="trajectory">
                     <h1 class="title-section">Trajetória</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nobis officiis laudantium assumenda? Rerum, molestiae, sequi eos possimus repellat dolor saepe ipsa voluptas molestias ad a facere officia! Alias, repellendus.</p>
+                    <section class="sections-paragraphs">
+                        <p class="format">
+                            Quando comecei a trabalhar com carteira assinada, em dezembro de 2004, iniciei no setor de Produção de uma distribuidora de medicamentos onde realizava a separação dos produtos. Mais tarde iniciei também no setor de Produção, mas agora em uma lavanderia industrial, onde separava as toalhas de pano para serem lavadas. Ambos os empregos eram temporários<span id="read-more">...</span>
+                        </p>
 
-                    <hr class="trajectory-separator">
+                        <span class="read-less">
+                            <p class="paragraph">
+                                Depois do setor de produção, iniciei em uma Logística que prestava serviços terceirizados para uma empresa multinacional no setor de Estoque. Trabalhávamos em duplas, eu e o operador de empilhadeira. Eu ficava dentro de uma caixa quadrada de madeira onde a empilhadeira levantava a caixa e eu em uma altura de 7 a 10 metros para alcanlçar os produtos nas prateleiras mais altas. Continuei trabalhando nesta multinacional não mais como terceiro e sim como funcionário efetivo desta.
+                            </p>
+    
+                            <p class="paragraph">
+                                Até que em 2008, ganhei uma bolsa de estudos para cursar Técnico em Informática com ênfase em programação, com duração de um ano e meio mais estágio, em uma escola em Gravataí. Após a conclusão do curso em dezembro de 2009. Resolvi fazer o estágio após concluir o curso. Verifiquei que na empresa onde trabalhava não haviam vagas de estágio nesta área de TI. Sendo assim, quando retornei de férias em fevereiro de 2010 pedi demissão.
+                            </p>
+    
+                            <p class="paragraph">
+                                Alguns tempo depois do pedido de demissão consegui um estágio na área. "Feito! Me dei bem!", Não. o estágio era em uma vidraçaria industrial onde fui contratado para programar a mesa de corte automatica através de um computador, usando o software AUTOCAD. "Função legal. Então por que ele não se deu bem?", agora vem a parte boa.
+                            </p>
+    
+                            <p class="paragraph">
+                                O setor no qual eu trabalharia ainda não existia. Tinha realmente uma mesa de corte automatica que tinha seu computador que através dele colocavamos as medidas do vidro e a mesa fazia o resto. A parte ruim é que esses equipamentos ficavam na produção. Resultado: O estagirário ajudava na produção carregando chapas de vidro e espelhosgigantes e isso tudo sem ganhar insalubridade. Nunca me machuquei, que sorte! Contatei a escola e informei que não estava desempenhando a função para a qual fui contratado. A escola permitica o cancelamento do estágio, mas eu não poderia fazer outro estágio. Quando terminaram as 400 horas necessárias do estágio, saí da empresa e peguei meu certificado.
+                            </p>
+    
+                            <p class="paragraph">
+                                Agora com o diploma na mão, mas sem neuhuma experiência pofissional em informática, que legal! Mas nem tudo está perdido, certo? Errado. Vamos lá!
+                            </p>
+    
+                            <p class="paragraph">
+                                Comecei a trabalhar em uma empresa familiar, uma pet shop, óóóó! Sem carteira assinada. A empresa era composta pela marido e mulher e seu casal de filhos com uma formanda no curso de Veterinária. Fui contratado para anunciar os filhotes de cães que estavam a venda, administrar o site que estava sendo construído e serviços em geral de TI. Não deu certo. A mãe atendia os animais e receitava medicamentos, mas não tinha diploma, além de gritar muito, o pai era veterinário mas tinha perdido a licença para atuar, o filho era advogado em um órgão público, a formanda estava aprendendo, a filha... As vezes sentava do meu lado com um computador olahndo rede social e gritava muito com seu filho pequeno, além de fumar muito, minha rinite agradece e eu estava enlouquecendo. Eis que um dia cheguei para trabalhar e me dispensaram, sem assinar minha carteira. Mesmo assim agradeci a Deus por não ter tido tempo de enlouquecer. Isso aconteceu em dois meses, que para mim foram uma eternidade.
+                            </p>
+    
+                            <p class="paragraph">
+                                No fim de 2010, comecei em um emprego temporário somente para ter algum dinheiro no Natal e Ano novo. Trabalhava no CD da papelaria Casa do Papel. Quando terminou o contrato, fui dispensado e prometi para mim mesmo que iria buscar uma vaga na TI, nem que demorasse, foi o que fiz.
+                            </p>
+    
+                            <p class="paragraph">
+                                Em maio de 2011 iniciei na empresa CLR Internet (UOL Host) do grupo UOL, empresa de hospedagem de sites. Lá prestava suporte aos clientes corporativos e não corporativos do serviço de hospedagem de sites. Trabalei lá até março de 2013 e fui dispensado. Neste período de 2011 havia iniciado a faculdade cursando Tecnólogo em Análise e Desenvolvimento de Sistemas e entre muitas desistencias e retomadas consegui concluir o curso em 2019.
+                            </p>
+    
+                            <p class="paragraph">
+                                Em torno de duas semanas depois estava empregado novamente em uma empresa multinacional. Prestava suporte remoto de informática aos colaboradores da empresa. Atuei neste projeto até janeiro de 2017. E em fevereiro de 2017 continuei na empresa, mas agora prestando serviço de suporte a infraestrutura para um cliente. Em abril de 2019 optei por ser dispensado.
+                            </p>
+    
+                            <p class="paragraph">
+                                Em 2019, algum tempo após sair da empresa anterior, iniciei no setor de Suporte a lojas virtuais de uma empresa de desenvolvimento de sites e lojas virtuais. Fui dispensado porque segundo a empresa ela não poderia me dar o suporte que eu precisava e me dispensou.
+                            </p>
+    
+                            <p class="bottom paragraph">
+                                Pois bem. Em janeiro de 2020, fui contratado por uma rede de supermercados para atuar como técnico Service Desk no setor de TI, prestando supórte remoto aos colaboradores da matriz e filiais onde atuo até o momento.
+                            </p>
+
+                        </span>
+                        <button>Continue lendo...</button>
+                        
+                    </section>
                 </section>
+                
+                <!-- Separador de sessão -->
+                <hr class="separator">
 
                 <!-- Sessão Formação -->
-                <section id="formation">
+                <section class="sections" id="formation">
                     <h1 class="title-section">Formação</h1>
-                    <p>E. E. de Ensino Médio Ponche Verde - Gravataí/ RS <br>
+                    <p class="institution">E. E. de Ensino Médio Ponche Verde - Gravataí/ RS <br>
                         Ensino Médio concluído em dezembro de 2005</p>
 
-                    <p>Colégio Dom Feliciano - Gravataí/ RS <br>
+                    <p class="institution">Colégio Dom Feliciano - Gravataí/ RS <br>
                         Técnico em Informática concluído em dezembro de 2009</p>
 
-                    <p>FAEL - Faculdade Educacional da LAPA - Polo Gravataí/ RS <br>
+                    <p class="institution">FAEL - Faculdade Educacional da LAPA - Polo Gravataí/ RS <br>
                         Tecnólogo em Análise e Desenv. de Sistemas concluído em julho de 2019</p>
 
                     <p>Plataforma <a href="https://www.rocketseat.com.br/">RocketSeat</a> - Aprendizagem contínua</p>
 
-                    <p>Plataforma <a href="https://www.origamid.com/">ORIGAMID</a> - Focada em Front-end e Design</p>
-
-                    <hr class="formation-separator">
+                    <p>Plataforma <a href="https://www.origamid.com/">ORIGAMID</a> - Focada em Front-end e Design</p>    
                 </section>
+
+                <!-- Separador de sessão -->
+                <hr class="separator">
 
                 <!-- Sessão Portfólio -->
                 <setion id="portfolio">
@@ -86,11 +159,13 @@
                     <div class="card-project03">Imagem projeto 3</div>
                     <div class="card-project04">Imagem projeto 4</div>
 
-                    <hr class="portfolio-separator">
                 </setion>
 
+                <!-- Separador de sessão -->
+                <hr class="separator">
+
                 <!-- Sessão de Experiência e Período -->
-                <section class="experience-period">
+                <section id="experience-period">
                     <h1 class="title-section">Experiência e Período</h1>
 
                     <!-- Card da empresa atual -->
@@ -106,9 +181,10 @@
                         <div>
                             <p>Início: 02/01/2020 <br> Saída: emprego atual</p>
                         </div>
-
-                        <hr class="current-company-separator">
                     </div>
+                    
+                    <!-- Separador de sessão -->
+                    <hr class="left-separator">
 
                     <!-- Card da penúltima empresa -->
                     <div class="penultimate-company">
@@ -124,8 +200,10 @@
                             <p>Início: 19/03/2013 <br> Saída: 28/04/2019 <br> Motivo: não realocado</p>
                         </div>
 
-                        <hr class="penultimate-company-separator">
                     </div>
+
+                    <!-- Separador de sessão -->
+                    <hr class="left-separator">
 
                     <!-- Card da antepenultima empresa -->
                     <div class="antepenultimate-company">
@@ -141,36 +219,35 @@
                             <p>Início: 23/05/2011 <br> Saída: 01/03/2013 <br> Motivo: Fim das atividades</p>
                         </div>
                     </div>
-
                 </section>
             </main>
         </div>
 
-
-        <!-- Rodapé da página Página Pessoal -->
+        <!-- Rodapé da página Carta de Apresentação -->
         <footer class="footer">
 
-            <div class="social-icons">
-                <ul>
+            <!-- Ícones de redes sociais -->
+            <div>
+                <ul class="social-icons">
                     <li><a href="https://www.linkedin.com/in/leonardo-klestadt-luz-54036419/" target="_blank" title="LinkedIn - abrirá o perfil de Leonardo K. Luz">
-                        <img src="./assets/icons/icone-linkedin.svg" alt="Ícone do LinkedIn">
+                        <img src="./assets/icons/icone-linkedin.svg" alt="Ícone do LinkedIn" class="icon-footer size-icon">
                     </a></li>
 
-                    <li><a href="https://github.com/leonardoklestadtluz" target="_blank" title="itHub - abrirá o repositório de Leonardo K. Luz">
-                        <img src="./assets/icons/icone-github.svg" alt="Ícone do GitHub">
+                    <li><a href="https://github.com/leonardoklestadtluz" target="_blank" title="GitHub - abrirá o repositório de Leonardo K. Luz">
+                        <img src="./assets/icons/icone-github.svg" alt="Ícone do GitHub" class="icon-footer size-icon">
                     </a></li>
 
                     <li><a href="mailto:klestadt@hotmail.com" title="Abrirá seu aplicativo de e-mail para contatar Leonardo K. Luz">
-                        <img src="./assets/icons/icone-email.svg" alt="Ícone do e-mail">
+                        <img src="./assets/icons/icone-email.svg" alt="Ícone do e-mail" class="icon-footer size-icon">
                     </a></li>
 
                     <li><a href="tel:+5551981713233" title="Abrirá seu aplicativo de telefone para contatar Leonardo K. Luz">
-                        <img src="./assets/icons/icone-telefone.svg" alt="Ícone do telefone">
+                        <img src="./assets/icons/icone-telefone.svg" alt="Ícone do telefone" class="size-icon">
                     </a></li>
                 </ul>
             </div>
 
-            <div class="right">Leonardo K. Luz | 2022 - Todos os direitos reservados &copy;</div>
+            <div class="right-all">Leonardo K. Luz | 2022 - Todos os direitos reservados</div>
         </footer>
     </body>
 </html>

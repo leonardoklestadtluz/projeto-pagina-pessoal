@@ -57,4 +57,4 @@ Neste projeto utilizarei as seguintes tecnologias e ferramentas.
 
 ## Como Acessar ou Utilizar
 
-Para acessa a página *Página Pessoal* disponibilizarei assim um link aqui assim que estiver pronto!
+Para acessar a página *Página Pessoal* disponibilizarei um link aqui assim que estiver pronto!

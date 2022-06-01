@@ -1,0 +1,96 @@
+/* NAVEGATION MENU HEADER ====================== */
+ul.items-menu {
+    background: var(--bkg-button-menu-separators);
+    height: 14rem;
+    width: 100%;
+}
+
+ul.items-menu, li, a.link-menu {
+    font-family: 'Glory', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+
+    /* Alinhamento do menu */
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+li.link a.link-menu {
+    border: 0.2rem solid var(--button-details);
+    border-radius: 1rem;
+    color: var(--text-content-menu);    
+    padding: 1rem;
+
+    transition: .5s;
+}
+
+li.link a.link-menu:hover {
+    background: var(-text-details);
+    box-shadow: 0 0 3rem var(--text-content-menu), inset 0 0 5rem var(--bkg-pages);
+    color: var(--text-content-menu);
+}
+
+/* CONTAINER ================================== */
+/* div.container {
+    /* background: rgba(255, 255, 255, 0.226); APENAS PARA ORIENTAÇÃO -> REMOVER!!!
+} */
+
+/* SECTIONS ================================== */
+section.sections {
+    color: var(--text-content-menu);
+}
+
+h1.title-section {
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+section.sections-paragraphs {
+
+    /* APENAS PARA ORIENTAÇÃO -> REMOVER!!! */
+    /* background: blue; */
+
+    background: var(--text-details);
+    border-radius: 1rem;
+    box-shadow: 0 0 1.3rem var(--box-shadow);
+    margin: 0 auto 6rem auto;
+    padding: 2rem 2rem 2rem 2rem;
+    width: 85%;
+}
+
+.text-content, .format, .paragraph {
+    font-family: 'Glory', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    margin: 0 auto;
+    width: 85%;
+    text-align: justify;
+
+    text-indent: 2rem;
+}
+
+.paragraph{
+    margin-top: 2rem;
+}
+
+button {
+    background: none;
+    border: none;
+    color: var(--text-read-continue);
+    font-family: 'Glory', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    margin: 1rem 5.3rem;
+
+}
+
+/* FORMATION ================================== */

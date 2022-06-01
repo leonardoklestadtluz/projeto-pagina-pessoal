@@ -1,6 +1,3 @@
-/* CONTAINER */
-
-
 /* CONTEÚDO PRINCIPAL DA PAGINA */
 .main-content {
     display: grid;
@@ -15,6 +12,14 @@
     color: var(--text-name-button);
     letter-spacing: 0.2rem;
     text-transform: uppercase;
+}
+
+/* Sessão de sub-titulos */
+h2.subtitle-side-right {
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
 }
 
 /* Regra de detalhes do nome */
@@ -50,8 +55,8 @@ li a img.size-contact-icon:hover {
 }
 
 /* SESSÃO DE MEUS DADOS */
-section.my-datas ul {
-    color: var(--text-content);
+section.my-datas ul li {
+    color: var(--text-content-menu);
     font-family: 'Glory', sans-serif;
 }
 
@@ -60,7 +65,7 @@ ul.datas {
 }
 
 ul li.data {
-    font-size: 1.8rem;
+    font-size: 2rem;
     letter-spacing: 0.2rem;
     line-height: 4rem;
 }
@@ -96,11 +101,11 @@ ul li span.span-data {
     margin-left: 13rem;
     padding: 1.6rem 1rem;
     
-    transition: 0.7s;
+    transition: .5s;
 }
 
 .button-personal-page:hover {
-    border: 0.2rem solid var(--text-name-button);    
+    border: 0.2rem solid var(--text-name-button);  
     box-shadow: 0 0 3rem var(--bkg-button-menu-separators), inset 0 0 5rem var(--bkg-button-menu-separators);
     border-radius: 1rem;
     color: var(--text-name-button);
@@ -110,6 +115,7 @@ ul li span.span-data {
 .separator-button {
     background: var(--bkg-button-menu-separators);
     border: none;
+    border-radius: 0.2rem;
     height: 0.5rem;
     margin: 6rem 0 6rem 18rem;
     width: 19rem;
@@ -118,20 +124,20 @@ ul li span.span-data {
 /* Estilo do texto */
 .presentation-text {
     background: var(--text-details);
-    box-shadow: -0.8rem 1rem 2.3rem rgba(255, 255, 255, 0.603);
     border-radius: 1rem;
+    box-shadow: -0.8rem 1rem 2.3rem var(--box-shadow);
     padding: 0.3rem;
     width: 50rem;
 }
 
 .presentation-text, p {
-    color: var(--text-content);
+    color: var(--text-content-menu);
     font-family: 'Glory',sans-serif;    
     font-size: 2rem;
     font-weight: 400;
-    line-break: strict;
     letter-spacing: 0.1rem;
-    line-height: 2rem;
-    
+    line-height: 2rem;    
     margin: 2rem 4rem;
+
+    text-align: justify;
 }
