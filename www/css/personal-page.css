@@ -140,10 +140,11 @@ section#portfolio {
     gap: 1.5rem;
 }
 
-a img {
+img.cards {
     background: white;
+    border-radius: 1rem;
     width: 35rem;
     height: 17.3rem;
 
-
+    object-fit: cover;
 }
