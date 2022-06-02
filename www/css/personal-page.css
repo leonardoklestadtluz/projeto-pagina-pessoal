@@ -93,4 +93,57 @@ button {
 
 }
 
-/* FORMATION ================================== */
+/* SECTION FORMATION ================================== */
+section#formation {
+    margin: 0 12.8rem 0 12.8rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+p.institutions {
+    font-family: 'Glory', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.08rem;
+    line-height: 2rem;
+}
+
+span.institution {
+    font-weight: 700;
+
+    margin-bottom: 15rem;
+}
+
+a.platform {
+    color: var(--text-details-links);
+    transition: .5s;
+}
+
+a.platform:hover {
+    color: var(--text-content-menu);
+}
+
+/* PORTFOLIO ================================== */
+section#portfolio {
+    /*background: blue; /* apenas para orientação APAGAR! */
+
+    width: 71rem;
+    height: 35.6rem;
+    margin: 2rem auto 6rem auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+    gap: 1.5rem;
+}
+
+a img {
+    background: white;
+    width: 35rem;
+    height: 17.3rem;
+
+
+}

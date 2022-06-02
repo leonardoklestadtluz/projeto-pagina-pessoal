@@ -14,6 +14,7 @@ html {
     --effect-icons: rgba(255, 255, 255, 0.37);
     --bkg-pages: #292929;
     --text-details: rgba(92, 92, 92, 0.525);
+    --text-details-links: rgba(172, 162, 162, 0.626);
 
     --text-menu: rgba(255, 255, 255, 0.502);
     --text-content-menu: #FFFFFF;
@@ -79,11 +80,11 @@ h1, h2, h3 {
     font-family: 'Texturina', serif;
 }
 
-/* SEPARETORS */
 section.name {
     text-align: center;
 }
 
+/* SEPARETORS */
 .separator {
     background: var(--bkg-button-menu-separators);
     border: none;
