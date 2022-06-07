@@ -5,41 +5,42 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Inserção do ícone favicon -->
+        <!-- FAVICON -->
         <link rel="shortcut icon" href="/assets/icons/favicon.svg" type="image/x-icon">
 
-         <!-- Estilo de fonte dos detalhes da página -->
-         <link rel="preconnect" href="https://fonts.googleapis.com">
-         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
- 
-         <!-- Estilo de títulos e subtítulos -->
-         <link rel="preconnect" href="https://fonts.googleapis.com">
-         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-         <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@900&display=swap" rel="stylesheet">
- 
-         <!-- Estilo de fonte do conteúdo da página -->
-         <link rel="preconnect" href="https://fonts.googleapis.com">
-         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-         <link href="https://fonts.googleapis.com/css2?family=Glory:wght@200;400;600;700&display=swap" rel="stylesheet">
+        <!-- FONT STYLE DETAIL PAGE -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
 
-        <!-- Estilos comuns entre as páginas -->
+        <!-- FONT STYLE TITLES AND SUBTITLES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@900&display=swap" rel="stylesheet">
+
+        <!-- FONT STYLE CONTENT PAGE -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Glory:wght@200;400;600;700&display=swap" rel="stylesheet">
+
+        <!-- STYLES COMONS BETWEEN PAGES -->
         <link rel="stylesheet" href="./css/global.css">
 
+        <!-- STYLES OF PAGE PERSONAL PAGE -->
         <link rel="stylesheet" href="./css/personal-page.css">
 
-        <!-- Título exibido na aba da página no navegador -->
+        <!-- TITLE ABA OF NAVIGATOR -->
         <title>LKL - Página Pessoal</title>
     </head>
 
     <body>
-        <!-- Cabeçalho da página Carta de Apresentação -->      
+        <!-- HEADER -->      
         <header>
             <div class="img-top"></div>
             <div class="filter-image-top"></div>
         </header>
 
-        <!-- Menu principal de navegação da página Página Pessoal -->
+        <!-- PRINCIPAL MENU -->
         <header class="header">
             <nav class="menu">
                 <ul class="items-menu">
@@ -53,22 +54,22 @@
             </nav>
         </header>
         
-        <!-- Conteúdo da página -->
+        <!-- CONTAINER -->
         <div class="container">
 
-            <!-- Conteúdo principal -->
+            <!-- MAIN -->
             <main class="main">
 
-                <!-- Sessão de Objetivos Profissionais -->
+                <!-- SECTION PROFESSIONAL GOALS -->
                 <section class="sections" id="professional-goals">
                     <h1 class="title-section">Objetivos Profissionais</h1>
                     <p class="text-content">Apesar de ter experiência na área de suporte e atendimento remoto ao cliente, sou graduado em Análise e Desenvolvimento de Sistemas, desejo iniciar minha carreira como desenvolvedor iniciando pelo front-end, passando pelo back-end e se possível chegar a full stack. Para isso estou estudando em plataformas online e tento me manter o mais próximo possível das linhas de código.</p>
                 </section>
                 
-                <!-- Separador de sessão -->
+                <!-- SECTION SEPARATOR -->
                 <hr class="separator">
 
-                <!-- Sessão Trajetória -->
+                <!-- SECTION TRAJECTORY -->
                 <section class="sections" id="trajectory">
                     <h1 class="title-section">Trajetória</h1>
                     <section class="sections-paragraphs">
@@ -127,10 +128,10 @@
                     </section>
                 </section>
                 
-                <!-- Separador de sessão -->
+                <!-- SECTION SEPARATOR -->
                 <hr class="separator">
 
-                <!-- Sessão Formação -->
+                <!-- SECTION FORMATION -->
                 <section class="sections" id="formation">
                     <h1 class="title-section">Formação</h1>
                     <p class="institutions">
@@ -159,10 +160,10 @@
                     </p>    
                 </section>
 
-                <!-- Separador de sessão -->
+                <!-- SECTION SEPARATOR -->
                 <hr class="separator">
 
-                <!-- Sessão Portfólio -->
+                <!-- SECTION PORTFOLIO -->
                 <h1 class="title-section">Portfólio</h1>
                 <section id="portfolio">
 
@@ -192,72 +193,115 @@
 
                 </section>
 
-                <!-- Separador de sessão -->
+                <!-- SECTION SEPARATOR -->
                 <hr class="separator">
 
-                <!-- Sessão de Experiência e Período -->
+                <!-- SECTION EXPERIENCE AND PERIOD -->
                 <section id="experience-period">
                     <h1 class="title-section">Experiência | Período</h1>
 
-                    <!-- Card da empresa atual -->
+                    <!-- CARD CURRENT COMPANY -->
                     <div class="current-company">
-                        <h2>Unidasul Distr. Alimentícia LTDA</h2>
-                        <h3>Técnico Service Desk</h3>
-                        <p>Atuo prestando suporte remoto corporativo via telefone e sistema de chamados para os colaboradores da Matriz, indústria e lojas de todo estado do RS. Desenvolvimento de documentações para auxiliar técnicos em demandas, procedimentos e solução de problemas.</p>
-
-                        <div>
-                            <p>Empresa: Unidasul Distr. Alimentícia LTDA <br> Cargo: Técnico Service Desk</p>
+                        <h2 class="subtitle">Unidasul Distribuidora Alimentícia LTDA</h2>
+                        
+                        <div class="description-job">
+                            <h3 class="subtitle internal">Técnico Service Desk</h3>
+                            <p class="description">
+                                Atuo prestando suporte remoto corporativo via telefone e sistema de chamados para os colaboradores da Matriz, indústria e lojas de todo estado do RS. Desenvolvimento de documentações para auxiliar técnicos em demandas, procedimentos e solução de problemas.
+                            </p>
                         </div>
 
-                        <div>
-                            <p>Início: 02/01/2020 <br> Saída: emprego atual</p>
+                        <div class="period">
+                            <div>
+                                <p>
+                                    <span class="span-datas">Empresa:</span> Unidasul Distr. Alimentícia LTDA <br> 
+                                    <span class="span-datas">Cargo:</span> Técnico Service Desk
+                                </p>
+                            </div>
+    
+                            <div>
+                                <p>
+                                    <span class="span-datas">Início:</span> 02/01/2020 <br> 
+                                    <span class="span-datas">Saída:</span> emprego atual
+                                </p>
+                            </div>
                         </div>
                     </div>
                     
-                    <!-- Separador de sessão -->
+                    <!-- SECTION SEPARATOR -->
                     <hr class="left-separator">
 
-                    <!-- Card da penúltima empresa -->
+                    <!-- CARD PENULTIMATE COMPANY -->
                     <div class="penultimate-company">
-                        <h2>Stefanini Consultoria de Informática</h2>
-                        <h3>Analista de Infraestrutura Jr.</h3>
-                        <p>Realizamos o monitoramento da infraetrutura e sistemas  da empresa TERRA NETWORKS, onde prestamos suporte corporativo e ao cliente Terra remotamente aacessando servidores Linux e Windows. Utilizamos ferramentas como NAGIOS, gerenciamento SSH, FootPrints e Wiki como base de documentações.</p>
+                        <h2 class="subtitle">Stefanini Consultoria de Informática</h2>
 
-                        <div>
-                            <p>Empresa: Stefanini Consultoria de Informática <br> Cargo: Analista Service Desk <br> Último cargo: Analista de Infraestrutura Jr.</p>
+                        <div class="description-job">
+                            <h3 class="subtitle internal">Analista de Infraestrutura Jr.</h3>
+                            <p class="description">
+                                Realizamos o monitoramento da infraetrutura e sistemas  da empresa TERRA NETWORKS, onde prestamos suporte corporativo e ao cliente Terra remotamente aacessando servidores Linux e Windows. Utilizamos ferramentas como NAGIOS, gerenciamento SSH, FootPrints e Wiki como base de documentações.
+                            </p>
                         </div>
 
-                        <div>
-                            <p>Início: 19/03/2013 <br> Saída: 28/04/2019 <br> Motivo: não realocado</p>
+                        <div class="period">
+                            <div>
+                                <p>
+                                    <span class="span-datas">Empresa:</span> Stefanini Consl. de Informática <br> 
+                                    <span class="span-datas">Cargo:</span> Analista Service Desk <br> 
+                                    <span class="span-datas">Último cargo:</span> Analista de Infraestrutura Jr
+                                </p>
+                            </div>
+    
+                            <div>
+                                <p>
+                                    <span class="span-datas">Início:</span> 19/03/2013 <br>
+                                    <span class="span-datas">Saída:</span> 28/04/2019 <br> 
+                                    <span class="span-datas">Motivo:</span> não realocado
+                                </p>
+                            </div>
                         </div>
 
                     </div>
 
-                    <!-- Separador de sessão -->
+                    <!-- SECTION SEPARATOR -->
                     <hr class="left-separator">
 
-                    <!-- Card da antepenultima empresa -->
+                    <!-- CARD ANTIPENULTIMATE COMPANY -->
                     <div class="antepenultimate-company">
-                        <h2>CLR Internet</h2>
-                        <h3>Atendente Help Desk</h3>
-                        <p>Suporte remoto a clientes corporativos e massivosvia telefone e chat. A atuação consistia em auxiliar clientes em dúvidas e solução de problemas relacionados com o serviço de hospedagem de sites, registro de domínios, apontamentos de DNS e a lojas virtuais desenvolvidas na plataforma Magento.</p>
+                        <h2 class="subtitle">CLR Internet</h2>
 
-                        <div>
-                            <p>Empresa: CLR Internet <br> Cargo: Atendente Help Desk <br> Último cargo: Atendente Help Desk </p>
+                        <div class="description-job">
+                            <h3 class="subtitle internal">Atendente Help Desk</h3>
+                            <p>
+                                Suporte remoto a clientes corporativos e massivosvia telefone e chat. A atuação consistia em auxiliar clientes em dúvidas e solução de problemas relacionados com o serviço de hospedagem de sites, registro de domínios, apontamentos de DNS e a lojas virtuais desenvolvidas na plataforma Magento.
+                            </p>
                         </div>
 
-                        <div>
-                            <p>Início: 23/05/2011 <br> Saída: 01/03/2013 <br> Motivo: Fim das atividades</p>
+                        <div class="period">
+                            <div>
+                                <p>
+                                    <span class="span-datas">Empresa:</span> CLR Internet <br> 
+                                    <span class="span-datas">Cargo:</span> Atendente Help Desk <br> 
+                                    <span class="span-datas">Último cargo:</span> Atendente Help Desk
+                                </p>
+                            </div>
+    
+                            <div>
+                                <p>
+                                    <span class="span-datas">Início:</span> 23/05/2011 <br>
+                                    <span class="span-datas">Saída:</span> 01/03/2013 <br>
+                                    <span class="span-datas">Motivo:</span> Fim das atividades
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </section>
             </main>
         </div>
 
-        <!-- Rodapé da página Carta de Apresentação -->
+        <!-- FOOTER -->
         <footer class="footer">
 
-            <!-- Ícones de redes sociais -->
+            <!-- SOCIAL ICONS -->
             <div>
                 <ul class="social-icons">
                     <li><a href="https://www.linkedin.com/in/leonardo-klestadt-luz-54036419/" target="_blank" title="LinkedIn - abrirá o perfil de Leonardo K. Luz">
