@@ -1,4 +1,4 @@
-/* REDEFINIR ====================================== */
+/* RESET ====================================== */
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-/* VARIÁVEIS E FONTES ============================ */
+/* VARIABLES AND FONTS ======================== */
 html {
     /* Cores */
     --filter-bkg-top: rgba(255, 255, 255, 0.37);
@@ -53,17 +53,15 @@ body, button {
 header div.img-top {
     background: url("/assets/images/imagem-fundo-topo.svg");
     background-size: cover;
-
-    height: 9.8vw;
+    height: 15rem;
     width: 100%;
 }
 
 header div.filter-image-top {
     background: var(--filter-bkg-top) fixed;
 
-    height: 9.8vw;
+    height: 15rem;
     width: 100%;
-
     position: absolute;
     top: 0;
 }
